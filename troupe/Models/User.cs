@@ -20,4 +20,6 @@ public class User
 
     public string Phone { get; set; }
 
+    public List<UserTroupe> UserTroupes { get; set; } 
+
 }
